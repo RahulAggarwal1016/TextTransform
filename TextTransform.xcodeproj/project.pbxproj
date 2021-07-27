@@ -11,6 +11,9 @@
 		E6247746266C1AD800554734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6247745266C1AD800554734 /* ViewController.swift */; };
 		E6247748266C1AD900554734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6247747266C1AD900554734 /* Assets.xcassets */; };
 		E624774B266C1AD900554734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6247749266C1AD900554734 /* Main.storyboard */; };
+		E6247754266C2DCE00554734 /* zalgo.json in Resources */ = {isa = PBXBuildFile; fileRef = E6247753266C2DCE00554734 /* zalgo.json */; };
+		E6247756266C2E0300554734 /* ZalgoCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6247755266C2E0300554734 /* ZalgoCharacters.swift */; };
+		E6247758266C30D400554734 /* ROT13.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6247757266C30D400554734 /* ROT13.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		E624774A266C1AD900554734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E624774C266C1AD900554734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E624774D266C1AD900554734 /* TextTransform.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextTransform.entitlements; sourceTree = "<group>"; };
+		E6247753266C2DCE00554734 /* zalgo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zalgo.json; sourceTree = "<group>"; };
+		E6247755266C2E0300554734 /* ZalgoCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalgoCharacters.swift; sourceTree = "<group>"; };
+		E6247757266C30D400554734 /* ROT13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROT13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +61,13 @@
 			children = (
 				E6247743266C1AD800554734 /* AppDelegate.swift */,
 				E6247745266C1AD800554734 /* ViewController.swift */,
+				E6247757266C30D400554734 /* ROT13.swift */,
+				E6247755266C2E0300554734 /* ZalgoCharacters.swift */,
 				E6247747266C1AD900554734 /* Assets.xcassets */,
 				E6247749266C1AD900554734 /* Main.storyboard */,
 				E624774C266C1AD900554734 /* Info.plist */,
 				E624774D266C1AD900554734 /* TextTransform.entitlements */,
+				E6247753266C2DCE00554734 /* zalgo.json */,
 			);
 			path = TextTransform;
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 			files = (
 				E6247748266C1AD900554734 /* Assets.xcassets in Resources */,
 				E624774B266C1AD900554734 /* Main.storyboard in Resources */,
+				E6247754266C2DCE00554734 /* zalgo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6247756266C2E0300554734 /* ZalgoCharacters.swift in Sources */,
 				E6247746266C1AD800554734 /* ViewController.swift in Sources */,
 				E6247744266C1AD800554734 /* AppDelegate.swift in Sources */,
+				E6247758266C30D400554734 /* ROT13.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
